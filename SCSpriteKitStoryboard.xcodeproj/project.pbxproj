@@ -12,6 +12,7 @@
 		6E9869451F9E9E91007ECF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9869431F9E9E91007ECF83 /* Main.storyboard */; };
 		6E9869471F9E9E91007ECF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9869461F9E9E91007ECF83 /* Assets.xcassets */; };
 		6E98694A1F9E9E91007ECF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9869481F9E9E91007ECF83 /* LaunchScreen.storyboard */; };
+		6E9869541F9EA027007ECF83 /* TestScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6E9869531F9EA027007ECF83 /* TestScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		6E9869461F9E9E91007ECF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E9869491F9E9E91007ECF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E98694B1F9E9E91007ECF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E9869521F9E9EF3007ECF83 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		6E9869531F9EA027007ECF83 /* TestScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TestScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 			children = (
 				6E98693E1F9E9E91007ECF83 /* SCSpriteKitStoryboard */,
 				6E98693D1F9E9E91007ECF83 /* Products */,
+				6E9869511F9E9EF2007ECF83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +60,21 @@
 			children = (
 				6E98693F1F9E9E91007ECF83 /* AppDelegate.swift */,
 				6E9869411F9E9E91007ECF83 /* ViewController.swift */,
+				6E9869531F9EA027007ECF83 /* TestScene.sks */,
 				6E9869431F9E9E91007ECF83 /* Main.storyboard */,
 				6E9869461F9E9E91007ECF83 /* Assets.xcassets */,
 				6E9869481F9E9E91007ECF83 /* LaunchScreen.storyboard */,
 				6E98694B1F9E9E91007ECF83 /* Info.plist */,
 			);
 			path = SCSpriteKitStoryboard;
+			sourceTree = "<group>";
+		};
+		6E9869511F9E9EF2007ECF83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E9869521F9E9EF3007ECF83 /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			files = (
 				6E98694A1F9E9E91007ECF83 /* LaunchScreen.storyboard in Resources */,
 				6E9869471F9E9E91007ECF83 /* Assets.xcassets in Resources */,
+				6E9869541F9EA027007ECF83 /* TestScene.sks in Resources */,
 				6E9869451F9E9E91007ECF83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EZGTK3XF77;
 				INFOPLIST_FILE = SCSpriteKitStoryboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.SCSpriteKitStoryboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +307,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EZGTK3XF77;
 				INFOPLIST_FILE = SCSpriteKitStoryboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Serious-Cyrus.SCSpriteKitStoryboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
